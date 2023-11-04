@@ -112,14 +112,14 @@ export default function Home() {
                     <div className="col-lg-7 valign">
                         <div className="content">
                             <h5 className="cd-headline slide">
-                                <span>Hello, I’m </span>
+                                <span>Hello, I&apos;m </span>
                                 <span className="cd-words-wrapper main-color">
                                     <b className="is-visible"> Clarkson Awomu</b>
                                     <b>Front-End Developer</b>
                                     <b>UI/UX Designer</b>
                                 </span>
                             </h5>
-                            <h1>I’m a Fullstack  Developer and <span className="bord">Software Engineer</span> Based in
+                            <h1>I&apos;m a Fullstack  Developer and <span className="bord">Software Engineer</span> Based in
                                 Nigeria.</h1>
                             <p className="text">I've done remote work for agencies, consulted for startups, and collaborated
                                 with talented people to create digital products for both business and consumer use.</p>
