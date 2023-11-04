@@ -21,9 +21,9 @@ export default function Home() {
                                                 <h6><Link href="about">About Us</Link></h6>
                                             </div>
                                             <div className="text-center mt-30">
-                                                <Link href="">
+                                                <Link href="./CLARKSON AWOMU RESUME_2.pdf" download>
                                                     <Image src={main} alt="Mainsvg" />
-                                                    <p className="fz-13 mt-15">Dwonload CV</p>
+                                                    <p className="fz-13 mt-15">Download CV</p>
                                                 </Link>
                                             </div>
                                         </div>
@@ -103,8 +103,8 @@ export default function Home() {
                                 <Link href="#0" className="inf-butn" data-scroll-nav="4">
                                     <span>Contact Us</span>
                                 </Link>
-                                <Link href="#0" className="inf-butn">
-                                    <span>Dwonload CV</span>
+                                <Link href="./CLARKSON AWOMU RESUME_2.pdf" className="inf-butn" download={true}>
+                                    <span>Download CV</span>
                                 </Link>
                             </div>
                         </div>
@@ -115,8 +115,8 @@ export default function Home() {
                                 <span>Hello, I&apos;m </span>
                                 <span className="cd-words-wrapper main-color">
                                     <b className="is-visible"> Clarkson Awomu</b>
-                                    <b>Front-End Developer</b>
-                                    <b>UI/UX Designer</b>
+                                    <b>Software Engineeer</b>
+                                    <b>Fullstack Developer</b>
                                 </span>
                             </h5>
                             <h1>I&apos;m a Fullstack  Developer and <span className="bord">Software Engineer</span> Based in

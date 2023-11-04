@@ -31,10 +31,10 @@ export default function navBar(){
                                     <Link className="nav-link" href="./services"><span
                                             className="rolling-text">Services</span></Link>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" href="./portfolio"><span
                                             className="rolling-text">Portfolio</span></Link>
-                                </li>
+                                </li> */}
                                
                                 <li className="nav-item">
                                     <Link className="nav-link" href="contact"><span

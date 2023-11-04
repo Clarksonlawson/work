@@ -9,7 +9,7 @@ import Footer from './ui/footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Clarkson Awomu',
+  
   description: 'My Portfolio',
 }
 
