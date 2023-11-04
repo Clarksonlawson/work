@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import profile from '@/public/assets/imgs/header/me.jpg'
-import Link from 'next/link'
-import main from '@/public/main.png'
-import arrow from '@/public/arrow.png'
+import Image from "next/image"
+import profile from "@/public/assets/imgs/header/me.jpg"
+import Link from "next/link"
+import main from "@/public/main.png"
+import arrow from "@/public/arrow.png"
 export default function Home() {
   return (
    
@@ -22,7 +22,7 @@ export default function Home() {
                                             </div>
                                             <div className="text-center mt-30">
                                                 <Link href="">
-                                                    <Image src={main} alt='Mainsvg' />
+                                                    <Image src={main} alt="Mainsvg" />
                                                     <p className="fz-13 mt-15">Dwonload CV</p>
                                                 </Link>
                                             </div>
@@ -42,8 +42,8 @@ export default function Home() {
                                         <div>
                                             <div className="circle-item d-flex align-items-center justify-content-center">
                                                 <Link href="services">
-                                                   <Image src={arrow} alt='arrow
-                                                   ' />
+                                                   <Image src={arrow} alt="arrow
+                                                   " />
                                                 </Link>
                                             </div>
                                         </div>
@@ -85,7 +85,7 @@ export default function Home() {
                             <div className="author-info">
                                 <div className="text-center">
                                     <span className="main-color sub-title mb-10">UI / UX Designer</span>
-                                    <h4 className="fw-500">Hi, I'm Clarkson Awomu</h4>
+                                    <h4 className="fw-500">Hi, I&apos;m Clarkson Awomu</h4>
                                 </div>
                                 <div className="social mt-20">
                                     <Link href="#0" className="icon">
@@ -121,7 +121,7 @@ export default function Home() {
                             </h5>
                             <h1>I&apos;m a Fullstack  Developer and <span className="bord">Software Engineer</span> Based in
                                 Nigeria.</h1>
-                            <p className="text">I've done remote work for agencies, consulted for startups, and collaborated
+                            <p className="text">I&apos;ve done remote work for agencies, consulted for startups, and collaborated
                                 with talented people to create digital products for both business and consumer use.</p>
                             <div className="stauts mt-50 pt-50 bord-thin-top">
                                 <div className="d-flex align-items-center">
