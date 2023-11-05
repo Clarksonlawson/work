@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 // import './globals.css'
-import Head from '@/app/ui/head/head'
+import Head from '@/app/ui/head/Head'
 import Loader from './ui/Loader/loader'
 import Cursor from './ui/Cursor/cursor'
 import progressScroll from './ui/progressScroll/progress'

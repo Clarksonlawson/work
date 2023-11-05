@@ -14,7 +14,6 @@ function SubmitButton(){
 }
 
 export function Form(){
-    const [state, formAction] = useFormState(displayForm, initialState)
 
     return (<form id="contact-form" action={formAction}>
 
