@@ -1,8 +1,5 @@
-import Image from "next/image"
-import profile from "@/public/assets/imgs/header/me.jpg"
+
 import Link from "next/link"
-import main from "@/public/main.png"
-import arrow from "@/public/arrow.png"
 export default function Home() {
     
   return (
@@ -23,7 +20,7 @@ export default function Home() {
                                             </div>
                                             <div className="text-center mt-30">
                                                 <Link href="./CLARKSON AWOMU RESUME_2.pdf" download>
-                                                    <Image src={main} alt="Mainsvg" />
+                                                    <img src="main.png" alt="Mainsvg" />
                                                     <p className="fz-13 mt-15">Download CV</p>
                                                 </Link>
                                             </div>
@@ -43,7 +40,7 @@ export default function Home() {
                                         <div>
                                             <div className="circle-item d-flex align-items-center justify-content-center">
                                                 <Link href="services">
-                                                   <Image src={arrow} alt="arrow
+                                                   <img src="arrow.png" alt="arrow
                                                    " />
                                                 </Link>
                                             </div>
@@ -78,9 +75,9 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="author-profile">
-                            <div className="author-Image">
-                                <div className="Image">
-                                    <Image src={profile} alt="Profile pic" />
+                            <div className="author-img">
+                                <div className="img">
+                                    <img src="./assets/imgs/header/me.jpg" alt="Profile pic" />
                                 </div>
                             </div>
                             <div className="author-info">
