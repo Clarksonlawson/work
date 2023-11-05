@@ -1,3 +1,5 @@
+import { style } from '@/public/assets/css/style.css'
+// import { Plugins } from '@/public/assets/css/plugins.css'
 export default function Head(){
 
 
@@ -25,10 +27,10 @@ export default function Head(){
             rel="stylesheet" />
     
        
-        <link rel="stylesheet" href="./assets/css/plugins.css" />
+        <link rel="stylesheet" href="http://localhost:3000/assets/css/plugins.css" />
     
        
-        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="http://localhost:3000/assets/css/style.css" />
     
     </head>)
 }
