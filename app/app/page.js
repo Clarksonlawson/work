@@ -4,6 +4,7 @@ import Link from "next/link"
 import main from "@/public/main.png"
 import arrow from "@/public/arrow.png"
 export default function Home() {
+    
   return (
    
   
